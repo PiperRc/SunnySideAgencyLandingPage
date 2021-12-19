@@ -1,0 +1,237 @@
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+:root {
+    /* Primary */
+    --softred: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    --darkDesatCyan: hsl(167, 40%, 24%);
+    --darkBlue: hsl(198, 62%, 26%);
+    --footer: hsl(168, 34%, 41%);
+
+    /* Neutral */
+    --vDarkDesatBlue: hsl(212, 27%, 19%);
+    --vDarkGrayBlue: hsl(213, 9%, 39%);
+    --darkGrayBlue: hsl(232, 10%, 55%);
+    --grayBlue: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%);
+}
+
+.container {
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+.intro-block {
+    width: 100%;
+    min-height: 150vh;
+    background-image: url(images/mobile/image-header.jpg);
+    background-size: cover;
+    background-position: bottom;
+    /* why does this work */
+    color: var(--white);
+    font-family: 'Fraunces', serif
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.nav-logo {
+    font-size: 1.5rem;
+}
+
+.hamburger img {
+    padding-top: 0.5rem;
+}
+
+.heading-intro {
+    font-size: 2.8rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.arrow {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.egg-block img {
+    width: 100%;
+}
+
+.transform-block {
+    font-family: 'Fraunces', serif;
+    border: 1px solid red;
+}
+
+.transform-block h2 {
+    margin-top: 3rem;
+    width: 60%;
+}
+
+.transform-block div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.transform-block div:nth-child(1) span {
+    display: block;
+    text-align: center;
+
+}
+
+.transform-block div:nth-child(2) {
+
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.transform-block div:nth-child(2) p {
+    width: 87%;
+}
+
+.transform-block h3 {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.cup-section img {
+    width: 100%;
+}
+
+.stand-section {
+    font-family: 'Fraunces', serif;
+}
+
+.stand-section h2 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.stand-section p {
+    margin-bottom: 2rem;
+}
+
+.stand-section div {
+    margin-bottom: 2.5rem;
+}
+
+
+.graphic-design {
+    width: 100%;
+    min-height: 150vh;
+    background-image: url(images/mobile/image-graphic-design.jpg);
+    background-size: cover;
+}
+
+
+.photography {
+    width: 100%;
+    min-height: 150vh;
+    background-image: url(images/mobile/image-photography.jpg);
+    background-size: cover;
+}
+
+.clients h2 {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 2rem;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+
+
+.test-1-img,
+.test-2-img,
+.test-3-img {
+    text-align: center;
+
+}
+
+.test-1-img img,
+.test-2-img img,
+.test-3-img img {
+    border-radius: 50%;
+    width: 5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.test-1 p,
+.test-2 p,
+.test-3 p {
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.test-1 h4,
+.test-2 h4,
+.test-3 h4 {
+    margin-bottom: 4rem;
+}
+
+.img-gallery {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.img-gallery div {
+    display: flex;
+}
+
+.img-gallery img {
+    width: 100%;
+}
+
+footer h2{
+    margin-top:3rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.bottom-nav{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.bottom-nav li{
+    font-size:1rem;
+    margin-top:2.5rem;
+    margin-bottom:5rem;
+}
+
+.bottom-nav a{
+    text-decoration: none;
+}
+
+.social-links{
+    margin:0 auto;
+    width:55%;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:6rem;
+}
